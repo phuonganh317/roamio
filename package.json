@@ -1,0 +1,9 @@
+{
+  "name": "roamio-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd roamio-ui && npm run dev",
+    "build": "cd roamio-ui && npm run build",
+    "start": "cd roamio-ui && npm run start"
+  }
+}
