@@ -1,5 +1,14 @@
 node_modules
 **/node_modules
+.next
+**/.next
 .DS_Store
 .vscode
 *.log
+*.zip
+*.docx
+*.ipynb
+dump-postgres-*.sql
+map.html
+weather.html
+tawild

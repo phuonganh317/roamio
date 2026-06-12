@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROAMIO Map Test - Tokyo English Edition</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 24px;
+            font-family: Arial, sans-serif;
+            background: #f7faf8;
+            color: #17211c;
+        }
+
+        #map {
+            height: 550px;
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h2>ROAMIO Tokyo Trip Map</h2>
+    <div id="map"></div>
+
+    <script>
+        const map = L.map("map").setView([35.6762, 139.6503], 12);
+
+        L.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png", {
+            attribution: "OpenStreetMap contributors",
+        }).addTo(map);
+
+        function addPlaceToMap(lat, lon, name, category) {
+            const marker = L.marker([lat, lon]).addTo(map);
+            marker.bindPopup(`<b>${name}</b><br>Category: ${category}`);
+        }
+
+        addPlaceToMap(35.6586, 139.7454, "Tokyo Tower", "Landmark / Observatory");
+        addPlaceToMap(35.6595, 139.7005, "Shibuya Crossing", "Attraction / Shopping");
+        addPlaceToMap(35.6764, 139.6993, "Meiji Jingu Shrine", "Culture / Park");
+        addPlaceToMap(35.7148, 139.7967, "Senso-ji Temple", "Historic Temple");
+        addPlaceToMap(35.7156, 139.773, "Ueno Park", "Park / Museums");
+        addPlaceToMap(35.6984, 139.773, "Akihabara Electric Town", "Electronics / Anime District");
+        addPlaceToMap(35.6655, 139.7707, "Tsukiji Outer Market", "Food Market");
+        addPlaceToMap(35.6852, 139.7101, "Shinjuku Gyoen National Garden", "Garden");
+        addPlaceToMap(35.6938, 139.7006, "Omoide Yokocho", "Food Alley");
+    </script>
+</body>
+</html>

@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "cd roamio-ui && npm run dev",
     "build": "cd roamio-ui && npm run build",
-    "start": "cd roamio-ui && npm run start"
+    "start": "cd roamio-ui && npm run start",
+    "backend:demo": "cd backend && python demo_run.py",
+    "backend:dev": "cd backend && python -m uvicorn app:app --reload"
   }
 }

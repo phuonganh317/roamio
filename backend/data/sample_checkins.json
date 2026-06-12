@@ -1,0 +1,10 @@
+[
+  {"user_id":"u001","place_id":"p002","hour":18},{"user_id":"u001","place_id":"p003","hour":9},{"user_id":"u001","place_id":"p007","hour":11},{"user_id":"u001","place_id":"p009","hour":20},{"user_id":"u001","place_id":"p011","hour":15},
+  {"user_id":"u002","place_id":"p003","hour":10},{"user_id":"u002","place_id":"p004","hour":16},{"user_id":"u002","place_id":"p007","hour":12},{"user_id":"u002","place_id":"p013","hour":13},{"user_id":"u002","place_id":"p015","hour":17},
+  {"user_id":"u003","place_id":"p002","hour":19},{"user_id":"u003","place_id":"p006","hour":16},{"user_id":"u003","place_id":"p009","hour":21},{"user_id":"u003","place_id":"p011","hour":14},{"user_id":"u003","place_id":"p018","hour":18},
+  {"user_id":"u004","place_id":"p003","hour":9},{"user_id":"u004","place_id":"p005","hour":11},{"user_id":"u004","place_id":"p008","hour":15},{"user_id":"u004","place_id":"p014","hour":16},{"user_id":"u004","place_id":"p017","hour":10},
+  {"user_id":"u005","place_id":"p004","hour":9},{"user_id":"u005","place_id":"p005","hour":14},{"user_id":"u005","place_id":"p006","hour":16},{"user_id":"u005","place_id":"p013","hour":11},{"user_id":"u005","place_id":"p019","hour":18},
+  {"user_id":"u006","place_id":"p002","hour":20},{"user_id":"u006","place_id":"p006","hour":18},{"user_id":"u006","place_id":"p009","hour":21},{"user_id":"u006","place_id":"p015","hour":17},{"user_id":"u006","place_id":"p018","hour":19},
+  {"user_id":"u007","place_id":"p008","hour":14},{"user_id":"u007","place_id":"p012","hour":17},{"user_id":"u007","place_id":"p016","hour":15},{"user_id":"u007","place_id":"p017","hour":10},{"user_id":"u007","place_id":"p020","hour":11},
+  {"user_id":"u008","place_id":"p005","hour":10},{"user_id":"u008","place_id":"p011","hour":13},{"user_id":"u008","place_id":"p013","hour":9},{"user_id":"u008","place_id":"p014","hour":15},{"user_id":"u008","place_id":"p017","hour":11}
+]
