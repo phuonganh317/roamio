@@ -7,7 +7,7 @@ Repo này gồm hai phần chính:
 - `roamio-ui/`: frontend Next.js hiển thị dashboard tương tác.
 - `backend/`: backend FastAPI chứa các module AI, dữ liệu mẫu và API gợi ý.
 
-Ngoài ra repo còn có `PRESENTATION_NOTES.md`, notebook tài liệu môn học, SQL dump và một số file HTML demo bản đồ/thời tiết.
+Ngoài ra repo còn có notebook tài liệu môn học, SQL dump và một số file HTML demo bản đồ/thời tiết.
 
 ## Tính Năng Chính
 
@@ -38,7 +38,6 @@ roamio/
     database/               # PostgreSQL schema và seed
   map.html
   weather.html
-  PRESENTATION_NOTES.md
 ```
 
 ## Luồng AI
